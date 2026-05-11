@@ -19,7 +19,13 @@ export default function Employee() {
             })
             alert(res.data.message)
         } catch (err) {
-            
+            if(err.response){
+                alert(err.response.data.message)
+            }
+            else{
+                alert('server is not reponding')
+            }
+            console.log(err)
         }
     }
 
