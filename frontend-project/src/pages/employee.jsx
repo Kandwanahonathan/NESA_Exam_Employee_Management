@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from 'axios'
+// import Department from "./department";
 
 export default function Employee() {
     const [employeeNumber,setEmployeeNumber]=useState(0)

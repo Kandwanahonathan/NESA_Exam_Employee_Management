@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Employee from './pages/employee'
+import Department from './pages/department.jsx'
+
 
 function App() {
  
@@ -11,6 +13,7 @@ function App() {
   return (
     <>
       <Employee/>
+      <Department/>
     </>
   )
 }
